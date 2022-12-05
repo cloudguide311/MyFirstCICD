@@ -10,9 +10,10 @@ terraform {
 }
 
 provider "aws" {
-   AWS_ACCESS_KEY_ID="AKIA37RGXBEGO3U5VS5W
-   AWS_SECRET_ACCESS_KEY="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
-   AWS_REGION="us-east-2"
+          $ export AWS_ACCESS_KEY_ID="AKIA37RGXBEGO3U5VS5W
+          $ export AWS_SECRET_ACCESS_KEY="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
+          $ export AWS_REGION="us-east-2"
+          $ terraform plan
 }
 
 resource "aws_instance" "app_server" {
